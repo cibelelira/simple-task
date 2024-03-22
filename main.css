@@ -1,0 +1,67 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+
+    list-style: square;
+    
+}
+
+.light-theme {
+    color: #9b4e4e;  
+    background: #ffdee9;
+}
+
+:root {
+    --pink: #ffdee9;
+    --white: #FFFFFF;
+    --black: #000000;
+    --pink2: #9b4e4e;
+}
+
+.light-theme {
+    --bg: var(--pink);
+    --fontColor: var(--pink2);
+    --buttonbg: var(--black);
+    --buttonfontColor:var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--pink);
+    --buttonbg: var(--white);
+    --buttonfontColor:var(--black);
+}
+
+* {
+    color: var(--pink2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: var(--bg);
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    height: 40px;
+    width: 75px;
+    border-radius: 10%;
+    color:#97547d;
+    background-color: #e4e4e4;
+}
+
+.button:focus {outline: none;}
+
+
